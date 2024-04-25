@@ -1,0 +1,78 @@
+body{
+    margin: 15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 5%;
+    text-align: center;
+}
+p{
+    font-size: x-large;
+    margin-left: 8%;
+    margin-right: 8.5%;
+    margin-top: 5%;
+    padding-left: 25%;
+}
+.imagem{
+    border-radius: 30px;
+    display: block;
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+#logo{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #459900;
+    display: inline;
+    padding: 1.4%;
+    border-radius: 30px;
+}
+.link-menu{
+    text-decoration: none;
+    color: white;
+    padding: 9.5%;
+}
+.ultimo-post{
+    display: flex;
+    flex-direction: row;
+    border: solid #459900 5px;
+    border-radius: 30px;
+}
+.btn-ler{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #459900;
+    color: white;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 8.5%;
+    margin-top: 5%;
+    
+}
+.outros-posts{
+    padding-top: 4%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+.imagens{
+    border-radius: 30px;
+    width: 70%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
