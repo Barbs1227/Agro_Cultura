@@ -8,23 +8,16 @@ h1{
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 5%;
     text-align: center;
 }
 p{
     font-size: x-large;
-    margin-left: 8%;
-    margin-right: 8.5%;
-    margin-top: 5%;
-    padding-left: 25%;
 }
 .imagem{
     border-radius: 30px;
-    display: block;
-    float: left;
     width: 25%;
-    margin-left: 4%;
-    margin-bottom: 3%;
+    display: block;
+    margin: auto;
 }
 #logo{
     display: block;
@@ -36,7 +29,10 @@ p{
     text-align: center;
     background-color: #459900;
     display: inline;
-    padding: 1.4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    padding-right: 1%;
     border-radius: 30px;
 }
 .link-menu{
@@ -45,10 +41,11 @@ p{
     padding: 9.5%;
 }
 .ultimo-post{
-    display: flex;
-    flex-direction: row;
+    text-align: center;
+    display: block;
     border: solid #459900 5px;
     border-radius: 30px;
+    padding-bottom: 1.5%;
 }
 .btn-ler{
     padding-top: 1%;
@@ -58,10 +55,7 @@ p{
     background-color: #459900;
     color: white;
     border-radius: 30px;
-    margin-left: 25%;
-    margin-right: 8.5%;
-    margin-top: 5%;
-    
+    text-align: center;
 }
 .outros-posts{
     padding-top: 4%;
@@ -75,4 +69,3 @@ p{
     margin-left: 18%;
     margin-right: 18%;
 }
-
